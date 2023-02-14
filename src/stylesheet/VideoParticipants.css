@@ -1,0 +1,63 @@
+.participants-video-screen {
+    display: flex;
+    position: absolute;
+    top: 503px;
+    left: -8px;
+    background: #F6F6F6;
+    padding-top: 10px;
+    padding-right: 407px;
+    padding-left: 38px;
+    padding-bottom: 26px;
+}
+
+.participant-image{
+    width: 215px;
+    border-radius: 10px;
+    margin-right: 13px;
+    
+
+}
+.participant-video-name{
+    width: 115px;
+    height: 25px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2.76881px);
+    top: 84px;
+    border-radius: 60.9138px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.circular-mic {
+    position: absolute;
+    width: 28px;
+    top: 100px;
+    margin-left: -51px;
+}
+.lines {
+    position: absolute;
+}
+.dark {
+    position: absolute;
+    width: 155px;
+    height: 10px;
+    top: 139px;
+    left: 300px;
+    border-radius: 10px;
+}
+.light {
+    position: absolute;
+    width: 157px;
+    height: 10px;
+    top: 139px;
+    left: 455px;
+    border-radius: 10px;
+}

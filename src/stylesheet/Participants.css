@@ -1,0 +1,160 @@
+.participants-container {
+    width: 29%;
+    height: 57px;
+    position: absolute;   
+    left: 958px;
+    top: 84px;
+    background: #FFFFFF;
+    align-items: center;   
+}
+
+.participants-top h1 {
+    width: 106.25px;
+    height: 33px;
+    left: 16px;
+    top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 14px;
+    line-height: 33px;
+    color: #292D32;
+    padding-left: 12px;
+    
+}
+
+.add-user-button {
+    display: flex;
+    padding: 12px 24px;
+    position: absolute;
+    width: 176px;
+    height: 43px;
+    left: 165px;
+    top: 6px;
+    background: #DFEBFF;
+    border-radius: 61px;
+    color: #0060FF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.2px;
+    line-height: 22px;
+    border: 0px solid #DFEBFF;
+    cursor: pointer;
+    
+}
+
+.arrow {
+    position: absolute;
+    color: #0060FF;
+    top: 21px;
+    left: 360px;
+}
+.dark-line {
+    width: 10%;
+    height: 77px;
+    position: absolute;
+    top: 66px;
+    left: 350px;    
+
+}
+
+.light-line {
+    width: 10%;
+    height: 190px;
+    position: absolute;
+    top: 97px;
+    left: 350px;    
+
+}
+.add-user-button img {
+    position: absolute;
+    width: 10%;
+    padding-left: 105px;
+}
+
+.participants-list {
+    position: absolute;
+    top: 60px;
+    left: 12px;
+    background-color: #0060FF;
+
+ 
+}
+
+.participants-list-one{
+    position: absolute;
+    width: 330px;
+    height: 57px;
+    display: flex;
+    top: 8px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 31.5px;
+
+}
+.participants-list-two{
+    position: absolute;
+    width: 330px;
+    height: 57px;
+    display: flex;
+    top: 73px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 31.5px;
+}
+.participants-list-three{
+    position: absolute;
+    width: 330px;
+    height: 57px;
+    display: flex;
+    top: 139px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 31.5px;
+}
+
+.participant-name {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.5px;
+    line-height: 33px;
+    left: 80px;
+    color: #25293B;
+
+
+    
+}
+.mic-icon{
+    position: absolute;
+    width: 21px;
+    height: 20px;
+    left: 250px;
+
+}
+
+.mic-icon-off{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 250px;
+
+}
+
+.videocam-off {
+  
+    position: absolute;
+    color: #EB5757;
+    transform: rotateX(180deg);
+    left: 283px;
+    
+
+}
+.videocam-on {
+    position: absolute;
+    color: #0060FF;
+    left: 283px;
+
+}

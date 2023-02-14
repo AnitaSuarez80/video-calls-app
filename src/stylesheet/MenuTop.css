@@ -1,0 +1,174 @@
+
+  .menuTop-container {
+    width: 99.9%;
+    height: 74px;
+    padding-top: 5px;
+    display: flex;
+    background: #FFFFFF;
+    border-width: 1.5px 0px 1.5px 1.5px;
+    border-style: solid;
+    border-color: rgba(217, 217, 217, 0.29);
+}
+
+.zoomIcon-container {
+    padding-left: 1.5em;
+    height: 88px;
+    border-left: 2px solid rgba(234, 233, 233, 0.58);
+    
+}
+
+.zoomIcon {
+    width: 57px;
+    height: 57px;
+    padding-right: 2em;
+    padding-top: 0.5em;
+}
+
+.title {
+    color: #373131;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 8.2px;
+    line-height: 29px;
+
+    
+}
+
+.date {
+    font-size: 10.5px;
+    line-height: 17px;
+    color: #ACACAC;
+    margin-top: -10px;
+
+}
+
+
+.circular-photos-participants {
+    padding-top: 0.7em;
+}
+
+.circular-photo-one {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 600px;
+
+}
+
+.circular-photo-two {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 635px;
+}
+.circular-photo-three {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 670px;
+}
+.circular-photo-four {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 705px;
+}
+
+.plus-nine {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 740px;
+    border-radius: 50%;
+    background: #DFEBFF;
+    border: 3px solid #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0060FF;
+    cursor: pointer;
+}
+
+.link {
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    left: 820px;
+    top: 1.35em;
+    background: #DFEBFF;
+    border-radius: 115.404px;
+    border: 1px solid #FFFFFF;
+    color: #0060FF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+
+}
+.link img {
+    width: 22px;
+}
+
+.moderator-inf {
+    padding-top: 0.6em;
+    
+}
+.moderator-inf button {
+    width: 285px;
+    height: 57px;
+    border-radius: 83px;
+    background: #F6F6F6;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    position: absolute;
+    left: 1048px; 
+     
+}
+
+.moderator-inf img {
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    width: 19%;
+}
+.three-points-icon {
+    width: 20px;
+    height: 50px;
+    padding-left: 180px;
+    padding-top: 3px;
+    color: #A2A7B4;
+    cursor: pointer;
+}
+.moderator-name {
+    position: absolute;
+    top: -6px;
+    line-height: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 33px;
+
+}
+.moderator {
+    position: absolute;
+    top: 12px;
+    left: 65px;
+    letter-spacing: 0.03em;
+    color: #9E9E9E;
+    line-height: 5px;
+    display: flex;
+    padding-left: 1.5em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 33px;
+
+
+}

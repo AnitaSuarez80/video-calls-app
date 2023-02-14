@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "video-calls-app-1",
+			"path": "../../video-calls-app-1"
+		}
+	],
+	"settings": {}
+}

@@ -1,23 +1,58 @@
-import logo from './logo.svg';
 import './App.css';
+import MenuTop from './components/MenuTop';
+import ModeratorScreen from './components/ModeratorScreen';
+import Participants from './components/Participants';
+import VideoParticipants from './components/VideoParticipants';
+import Chats from './components/Chats'
+import ActionMenu from './components/ActionMenu'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <MenuTop />
+
+      <ModeratorScreen />
+
+      <Participants />
+
+      <VideoParticipants />
+{/* 
+      <VideoParticipants 
+        image = 'one'
+        name = 'Cassie Jung'
+        icon = 'off'
+      />
+
+      <VideoParticipants 
+        image = 'two'
+        name = 'Alice Wong'
+        icon = 'on'
+      />
+
+      <VideoParticipants 
+        image = 'three'
+        name = 'Thresa Webb'
+        icon = 'on'
+      />
+
+      <VideoParticipants 
+        image = 'four'
+        name = 'Christian Wong'
+        icon = 'off'
+      /> */}
+
+      <Chats />
+
+      <ActionMenu />
+
+      {/* <Participants
+        name='Kathryn Murphy'
+        image='1'
+
+      /> */}
+      
+     
     </div>
   );
 }

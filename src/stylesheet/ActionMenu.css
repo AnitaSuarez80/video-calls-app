@@ -1,0 +1,30 @@
+
+.action-menu-buttons {
+    display: flex;
+    position: absolute;
+    left: 290px;
+}
+
+.action-menu-icons {
+    width: 4%;
+    top: 680px;
+    margin-top: 183px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.end-call-button {
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    top: 183px;
+    left: 535px;
+    border-radius: 73px;
+    border: 0 solid #EB5757;
+    background: #EB5757;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
